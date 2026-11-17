@@ -1,0 +1,14 @@
+/* podstawy */
+body { color: #202b3c;
+     background: #f5f7fb;
+      font-family: system-ui, sans-serif;
+     }
+p {     
+    color: #253858;
+}
+/* linki */
+nav[aria-current="page"],header p, .program-cards {
+     font-weight: bold;
+     font-size: 1.2em; 
+    }
+/* tresc */
