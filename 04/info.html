@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="PL-pl">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Informacje</title>
-    </head>
-    
-    <body>
-<article>        
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informacje</title>
+    <link rel="stylesheet" href="assets/css/info.css">
+</head>
+<body>
+<section class="info-intro">
 <header>
     <h1>Informacje o wydarzeniu</h1>
 </header>
@@ -18,21 +18,26 @@
         <li><a href="info.html">Informacje</a></li>
     </ul>
 </nav>
-</article>
+</section>
 <main>
-	<figure>
-		<img src="obrazy/scena-400.svg" alt="scena-400">
-		<figcaption>ooo klaun</figcaption>
-	</figure>
-	<figure>
-		<img src="obrazy/scena.svg" alt="scena">
-		<figcaption>ooooooo koszalin</figcaption>
-	</figure>
-	<figure>
-		<img src="obrazy/strefa.svg" alt="strefa">
-		<figcaption>oooooo strefa</figcaption>
-	</figure>
-    <article id="wydarzenie">
+<article class="card">
+    <section class="info-cards">
+	    <figure>
+		    <img src="obrazy/scena-400.svg" alt="scena-400">
+		    <figcaption>ooo klaun</figcaption>
+	    </figure>
+	    <figure>
+		    <img src="obrazy/scena.svg" alt="scena">
+		    <figcaption>ooooooo koszalin</figcaption>
+	    </figure>
+        <figure>
+            <img src="obrazy/strefa.svg" alt="strefa">
+            <figcaption>oooooo strefa</figcaption>
+        </figure>
+    </section>
+</article>
+<article id="wydarzenie" class="card">
+    <section class="info-cards">
 	<p>Miejsce wydarzenia: Poznań, rynek główny</p>
 	<p>Godzina wydarzenia: 21:30</p>
 	<a href="index.html">Główna strona</a>
@@ -43,7 +48,8 @@
         <li>chuj nie chce mi sie listy</li>
         <li>dolor sit amet</li>
     </ul>
-    </article>
+</section>
+</article>
 </main>              
 <footer>
     <p>Kontakt: burger@onet.pl</a> 
