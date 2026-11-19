@@ -10,6 +10,10 @@ p {
     background-color:#2a74a5;
     color:#f5f7fb;
 }
+th{
+    background-color:#2a74a5;
+    color:#f5f7fb;
+}
 /* linki */
 nav[aria-current="page"],header p, .program-cards {
      font-weight: bold;
